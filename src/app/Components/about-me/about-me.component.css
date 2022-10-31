@@ -1,0 +1,43 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    padding: 80px;
+}
+
+@media (min-width: 576px) {
+    #foto-perfil {
+        position: absolute;
+        width: 15%;
+        height: 30%;
+        border-radius: 50%;
+        left: 2%;
+        top: 920px;
+    }
+}
+
+@media (max-width: 575px) {
+    #foto-perfil {
+        position: absolute;
+        width: 45%;
+        border-radius: 50%;
+        left: 30%;
+        top: 845px;
+    }
+}
+
+#nombre {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 10px;
+    color: white;
+}
